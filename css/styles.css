@@ -1,0 +1,158 @@
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+body {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}
+
+
+:root {
+    --primary-color: #2E2F42;
+    --secondary-color: #434455;
+    --logo-web: #4D5AE5;
+    --white: #FFFFFF;
+    --active-color: #404BBF;
+    --section-ourteam-backcolor: #F4F4FD;
+    --footer-text:#E7E9FC;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+/* LOGOTYPE */
+.logo {
+font-family: var(--secondary-font);
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33em;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.logo-part {
+    color: var(--logo-web);
+}
+.logo-footer {
+    color:var(--section-ourteam-backcolor)
+}
+/* HEADER */
+.nav-link {
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: ;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--active-color);
+}
+.contacts-link {
+    color: var(--secondary-color);
+
+}
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--active-color);
+}
+
+/* MAIN PAGE */
+
+/* SECTION-HERO */
+.hero {
+    background-color: var(--primary-color);
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07em;
+    color: var(--white);
+}
+.hero-button {
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    background-color: var(--logo-web);
+    color: var(--white);
+    cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--active-color);
+}
+
+/* SECTION-ABOUT */
+.about-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+.about-list-text {
+    color: var(--secondary-color);
+}
+
+/* SECTION-OURWORK */
+.ourwork-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11em;
+}
+
+/* SECTION-OURTEAM */
+
+.ourteam {
+    background-color:var(--section-ourteam-backcolor);
+}
+
+.ourteam-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11em;
+}
+.ourteam-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+.ourteam-list-text {
+    color: var(--secondary-color);
+}
+
+/* FOOTER */
+.footer {
+    background-color: var(--primary-color);
+}
+.footer-text {
+    color: var(--footer-text);
+}
+
+
+/* PAGE-PORTFOLIO */
+
+/* SECTION-NAV-BUTTON */
+
+.filter-button {
+    font-weight: 500px;
+    letter-spacing: 0.04em;
+    background-color:var(--section-ourteam-backcolor);
+    color: var(--logo-web);
+    cursor:pointer;
+
+}
+.filter-button:hover,
+.filter-button:focus {
+    background-color:var(--active-color);
+    color: var(--white);
+}
+
+/* SECTION-OURPRODUCT */
+.ourproduct-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+.ourproduct-list-text {
+    color: var(--secondary-color);
+}
