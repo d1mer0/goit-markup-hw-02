@@ -166,6 +166,4 @@ color: var(--primary-color);
 .ourproduct-list-text {
     color: var(--secondary-color);
 }
-.card-item {
-    text-decoration: none;
-    }
+
