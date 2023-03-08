@@ -27,15 +27,16 @@ body {
 }
 /* LOGOTYPE */
 .logo {
-font-family: var(--secondary-font);
+font-family:var(--secondary-font);
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33em;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+color: var(--primary-color);
 }
 .logo-part {
-    color: var(--logo-web);
+    color:var(--logo-web);
 }
 .logo-footer {
     color:var(--section-ourteam-backcolor)
@@ -44,7 +45,7 @@ text-transform: uppercase;
 .nav-link {
     color: var(--primary-color);
     font-weight: 500;
-    font-size: ;
+
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -72,8 +73,11 @@ text-transform: uppercase;
     color: var(--white);
 }
 .hero-button {
+    font-size: 16px;
     font-weight: 500;
+    line-height: 1.5em;
     letter-spacing: 0.04em;
+    font-family: inherit;
     background-color: var(--logo-web);
     color: var(--white);
     cursor: pointer;
@@ -98,6 +102,7 @@ text-transform: uppercase;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11em;
+    text-transform: capitalize;
 }
 
 /* SECTION-OURTEAM */
@@ -134,8 +139,11 @@ text-transform: uppercase;
 /* SECTION-NAV-BUTTON */
 
 .filter-button {
-    font-weight: 500px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
     letter-spacing: 0.04em;
+    font-family: inherit;
     background-color:var(--section-ourteam-backcolor);
     color: var(--logo-web);
     cursor:pointer;
@@ -152,7 +160,12 @@ text-transform: uppercase;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2em;
+    color: var(--primary-color);
 }
+
 .ourproduct-list-text {
     color: var(--secondary-color);
 }
+.card-item {
+    text-decoration: none;
+    }
