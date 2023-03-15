@@ -73,7 +73,9 @@ color:var(--logo-web) ;
 .hero-title {
     font-weight: 700;
     font-size: 56px;
+    text-align: center;
     line-height: 1.07em;
+    text-transform: capitalize;
     color: var(--white);
 }
 .hero-button {
@@ -88,7 +90,7 @@ color:var(--logo-web) ;
 }
 .hero-button:hover,
 .hero-button:focus {
-    background-color: var(--active-color);
+    color: var(--active-color);
 }
 
 /* SECTION-ABOUT */
@@ -96,8 +98,6 @@ color:var(--logo-web) ;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2em;
-}
-.about-list-text {
     color: var(--secondary-color);
 }
 
@@ -106,7 +106,9 @@ color:var(--logo-web) ;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11em;
+    text-align: center;
     text-transform: capitalize;
+    color: var(--secondary-color);
 }
 
 /* SECTION-OURTEAM */
@@ -114,20 +116,25 @@ color:var(--logo-web) ;
 .ourteam {
     background-color:var(--section-ourteam-backcolor);
 }
+.ourteam-card {
+    background-color: var(--white);
+}
 
 .ourteam-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--secondary-color);
 }
 .ourteam-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2em;
-}
-.ourteam-list-text {
     color: var(--secondary-color);
 }
+
 
 /* FOOTER */
 .footer {
