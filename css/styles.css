@@ -116,7 +116,7 @@ color:var(--logo-web) ;
 /* SECTION-OURTEAM */
 
 .ourteam {
-    background-color:var(--section-ourteam-backcolor);
+    background-color:var(--logo-footer);
 }
 .ourteam-card {
     background-color: var(--white);
@@ -162,7 +162,7 @@ color:var(--logo-web) ;
     line-height: 1.5em;
     letter-spacing: 0.04em;
     font-family: inherit;
-    background-color:var(--section-ourteam-backcolor);
+    background-color:var(--logo-footer);
     color: var(--logo-web);
     cursor:pointer;
 
@@ -183,6 +183,6 @@ color:var(--logo-web) ;
 }
 
 .ourproduct-list-text {
-    color: var(--primary-colorgit);
+    color: var(--primary-color);
 }
 
