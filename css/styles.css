@@ -15,8 +15,8 @@ body {
 
 
 :root {
-    --primary-color: #2E2F42;
-    --secondary-color: #434455;
+    --primary-color:  #434455;
+    --secondary-color: #2E2F42;
     --logo-web: #4D5AE5;
     --white: #FFFFFF;
     --active-color: #404BBF;
@@ -30,20 +30,20 @@ body {
 font-family:var(--secondary-font);
 font-weight: 800;
 font-size: 18px;
-line-height: 1.33em;
+line-height: 1.17em;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--primary-color);
+color:var(--logo-web) ;
 }
 .logo-part {
-    color:var(--logo-web);
+    color:var(--secondary-color);
 }
 .logo-footer {
     color:var(--section-ourteam-backcolor)
 }
 /* HEADER */
 .nav-link {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-weight: 500;
 
 }
@@ -51,8 +51,12 @@ color: var(--primary-color);
 .nav-link:focus {
     color: var(--active-color);
 }
+.contact-info {
+    font-style: normal;
+}
 .contacts-link {
-    color: var(--secondary-color);
+    
+    color: var(--primary-color);
 
 }
 .contacts-link:hover,
